@@ -1,6 +1,6 @@
 package com.example.multimodulestestproject;
 
-import com.example.domain.Member;
+import com.example.multimodulestestproject.domain.Member;
 import com.example.multimodulestestproject.service.MemberServiceCustom;
 import org.junit.Test;
 import org.junit.runner.RunWith;

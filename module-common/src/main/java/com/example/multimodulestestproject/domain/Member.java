@@ -1,4 +1,4 @@
-package com.example.domain;
+package com.example.multimodulestestproject.domain;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

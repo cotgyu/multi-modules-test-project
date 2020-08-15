@@ -1,7 +1,7 @@
 package com.example.multimodulestestproject.service;
 
-import com.example.domain.Member;
-import com.example.repository.MemberRepository;
+import com.example.multimodulestestproject.domain.Member;
+import com.example.multimodulestestproject.repository.MemberRepository;
 import org.springframework.stereotype.Service;
 
 @Service

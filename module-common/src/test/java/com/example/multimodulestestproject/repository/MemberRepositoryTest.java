@@ -1,7 +1,6 @@
 package com.example.multimodulestestproject.repository;
 
-import com.example.domain.Member;
-import com.example.repository.MemberRepository;
+import com.example.multimodulestestproject.domain.Member;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
