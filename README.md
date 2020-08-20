@@ -33,7 +33,8 @@
 			zipStorePath=wrapper/dists
 			```
 
-	-	2) common에 생성한 repository나 domain을 자꾸 인식을 못하여 다음과 같이 Application에 명시해줌
+	-	2) common에 생성한 repository나 domain을 자꾸 인식을 못하여 다음과 같이 Application에 명시해줌 
+		- (패키지 수정 후 해당 어노테이션 삭제함)
 
 		```java
 		@SpringBootApplication(scanBasePackages = "com.example")
@@ -41,7 +42,7 @@
 		@EnableJpaRepositories(basePackages={"com.example.repository"})
 		```
 
-		-	해결! : 생성한 repository 경로가 다른 모듈과 달랐음!
+		-	해결! : 생성한 repository 경로가 다른 모듈과 달랐음! 
 
 			-	기존 common 모듈 : com.example.domain.Member.java
 			-	기존 api 모듈 : com.example.multimodulestestproject.ModuleApiApplication.java
